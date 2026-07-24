@@ -1797,7 +1797,7 @@ exports.getReferral = async (req, res, next) => {
 };
 
 exports.developer= async (req, res) => {
-  res.render('./store/developer', {
+  res.render('./store/developershailu', {
     title: "Developer Page",
     currentPage: 'developer'
   });
